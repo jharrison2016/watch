@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -10,7 +11,8 @@ import { DigClockComponent } from './dig-clock/dig-clock.component';
     DigClockComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
